@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#2FAD4D"
+        android:text="Cycling Club"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-thin"/>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:scaleX="1.5"
+        android:layout_height="160dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/bicycle"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#03A9F4"
+        android:fontFamily="serif"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:text="The Bet cycling Teams \nin the industry blah blah"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/openLogin"
+        android:layout_width="230dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text=" >> Proceed >>"
+        android:textSize="25sp"
+        android:textColor="#0762B4"
+        android:background="@drawable/btnstyle"
+        android:layout_height="60dp"/>
+
+
+
+
+</LinearLayout>
